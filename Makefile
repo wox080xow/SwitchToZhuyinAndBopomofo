@@ -1,4 +1,4 @@
 all: SwitchToZhuyinAndBopomofo
 
 SwitchToZhuyinAndBopomofo: SwitchToZhuyinAndBopomofo.m
-	gcc -o $@ -Wall $< -framework AppKit -framework Carbon -framework Foundation
+	gcc -o $@ -Wall $< -framework Carbon -framework Foundation
